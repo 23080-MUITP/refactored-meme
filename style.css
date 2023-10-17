@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header h6 {
+    font-size: 16px;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article {
+    flex: 1;
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article img {
+    max-width: 90%;
+    height: auto;
+}
+
+.articlecontent {
+    padding: 20px;
+}
+
+.article h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.article p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.sidebar {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.pins {
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pins h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.pins img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pins p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.bottomlinks {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.bottomlinks h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottomlinks li {
+    margin: 5px 0;
+}
+
+.bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
